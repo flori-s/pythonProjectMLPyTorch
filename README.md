@@ -16,11 +16,33 @@ This project is a machine learning application using PyTorch to predict the simi
     cd pythonProjectMLPyTorch
     ```
 
-2. Install the required dependencies:
+2. **Install the required dependencies**:
+
+    If you have `pip` installed, run:
 
     ```sh
     pip install -r requirements.txt
     ```
+
+    If you encounter the following error:
+
+    ```sh
+    zsh: command not found: pip
+    ```
+
+    This means `pip` is not installed on your system. To install `pip`, follow these steps:
+
+    - For **Python 3**:
+
+      ```sh
+      python3 -m ensurepip --upgrade
+      ```
+
+      or
+
+      ```sh
+      python3 -m pip install --upgrade pip
+      ```
 
 ## Running the Project
 
@@ -29,11 +51,27 @@ This project is a machine learning application using PyTorch to predict the simi
     - `vacature_data.csv`
     - `labels.csv`
 
-2. Run the main script:
+2. **Run the main script**:
+
+    If you're using Python 3 (which is likely), you may need to use `python3` instead of `python`. Try running:
 
     ```sh
-    python Main.py
+    python3 Main.py
     ```
+
+    If you encounter the following error:
+
+    ```sh
+    zsh: command not found: python
+    ```
+
+    This means the `python` command is not found on your system, likely because you're using Python 3 and the command is `python3`. 
+
+    **Solution**:
+    - Try running the script with `python3`:
+
+      ```sh
+      python3 Main.py
 
 ## Project Structure
 
