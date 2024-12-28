@@ -53,10 +53,10 @@ This project is a machine learning application using PyTorch to predict the simi
 
 2. **Run the main script**:
 
-    If you're using Python 3 (which is likely), you may need to use `python3` instead of `python`. Try running:
+    If you have `python` installed, run:
 
     ```sh
-    python3 Main.py
+    python Main.py
     ```
 
     If you encounter the following error:
